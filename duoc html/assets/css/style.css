@@ -1,0 +1,94 @@
+.carousel-caption h3 , 
+.carousel-caption h4 {
+    font-family: 'Poppins', sans-serif; /* Aplicamos la fuente Poppins */
+    color: white; /* Color de texto blanco */
+    font-weight: 600; /* Hacemos el texto más grueso */
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+    text-align: center; /* Centra el texto */
+    text-shadow: 
+        1px 1px 0px black, /* Sombra de texto para crear el borde */
+        -1px -1px 0px black, /* Sombra negativa para todos los lados */
+        1px -1px 0px black,
+        -1px 1px 0px black;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+.card {
+    border: 2px solid black; /* Borde negro de 2px */
+    min-height: 350px; /* Asegura que los cards tengan una altura mínima más grande */
+    position: relative; /* Para poder posicionar el botón dentro */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del card */
+    height: 350px; /* Ajusta la altura de la imagen */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%; /* Esto asegura que el contenido se expanda para llenar el card */
+  }
+  
+  .card-footer {
+
+        margin-top: auto; /* Empuja el pie de la tarjeta hacia abajo */
+      
+  }
+  
+  .card-footer .btn-link {
+    font-weight: bold; /* Para hacer que el texto sea un poco más destacado */
+    text-decoration: none; /* Elimina el subrayado */
+  }
+  
+  .card-footer .btn-link:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el mouse */
+  }
+
+  footer p,
+  footer h5{
+    font-family: 'Poppins', sans-serif; /* Aplicamos la fuente Poppins */
+    color: white; /* Color de texto blanco */
+    letter-spacing: 1px; /* Espaciado entre letras */
+   
+}
+
+
+/* Estilo general de los botones */
+.btn.rrss {
+    display: inline-block;
+    border-radius: 50%; /* Redondear los botones */
+    width: 40px; /* Tamaño fijo para los iconos */
+    height: 40px; 
+    background-color: #333; /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+/* Efecto al pasar el ratón */
+.btn.rrss:hover {
+    background-color: #ffcc00; /* Cambio de fondo al pasar el ratón */
+    transform: scale(1.1); /* Efecto de aumentar tamaño */
+}
+
+/* Estilo de los iconos */
+.feather {
+    color: white; /* Iconos blancos */
+    transition: color 0.3s ease; /* Transición para el color */
+}
+
+/* Efecto sobre los iconos al pasar el ratón */
+.btn.rrss:hover .feather {
+    color: #000; /* Cambiar el color del icono al pasar el ratón */
+}
+
+
